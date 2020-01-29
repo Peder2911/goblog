@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width" />
+      <title>{{ .Title }}</title>
+      <link rel="stylesheet" href="static/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+   </head>
+   <body>
+      <h1>{{ .Title }}</h1>
+      {{ printf "%s" .Body }}
+   </body>
+</html>
